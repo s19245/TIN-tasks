@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> TIN 1E </title>
+ <link type="text/css" rel="stylesheet" href="TIN 1e"/>
+</head>
+<body>
+ <div class="row">
+ <h1> This is row </p>
+  <div class="column"> <p> Here is some text inside the first columm</p>
+  <img src="https://i.postimg.cc/c4hmTkFs/photo5265012233220501484.jpg" width = "50%" />
+  <p> Here I feel myself like very important person </p>
+  </div>
+  <div class="column"><p> Hre is the second one</p>
+  <img src="https://i.postimg.cc/Hkf7tQ1Y/photo5265012233220501485.jpg" width = "50%" />
+  <p> This is just funny photo of me</p>
+  </div>
+  
+</div> 
+</body>
+</html>

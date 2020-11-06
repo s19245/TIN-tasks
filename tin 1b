@@ -1,0 +1,65 @@
+
+<html>
+<head>
+  <title> TIN 1b</title>
+   <link type="text/css" rel="stylesheet" href="TIN 1d"/>
+  </head>
+ <body>
+ <h3> The TIN task assignment b</h3>
+ <p> text input field</p>
+  <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<p> password field</p>
+ <form>
+   <label for="pwd">Password:</label>
+   <input type="password" id="pwd" name="pwd">
+  </form>
+  <p> Checkbox</p>
+ <form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form> 
+<p>radiobutton group</p> 
+ <form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form> 
+<p>dropdown list</p>
+      <form>
+	  <select name = "dropdown">
+      <option value = "Computer Architecture" selected>Computer Architecture</option>
+      <option value = "Java">Java</option>
+      <option value = "Discrete Mathematics">Discrete Mathematics</option>
+      </select>
+      </form>
+	  <p>text area </p>
+	<form>
+	
+      <textarea id="giveAFeedback" name="comments" rows="4" cols="50">
+      Give me a feedback to increase the speed of learning html
+      </textarea> 
+	 </form>
+	 <p>submit and reset buttons </p>
+	<form action="/action_page.php" method="get">
+     <label for="fname">First name:</label>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="lname">Last name:</label>
+     <input type="text" id="lname" name="lname"><br><br>
+     <li class ="button" ><button type="submit" value="Submit">Submit</button> </li>
+     <li class = "button1"><button type="reset" value="Reset">Reset</button></li>
+     </form> 
+ </body>
+</html>
+  

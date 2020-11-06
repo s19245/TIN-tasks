@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> TIN task 1 </title>
+  <link type="text/css" rel="stylesheet" href="TIN 1c"/>
+  <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+  </head>
+  <body>
+  <h1> Adilet's page</h1>
+  <b> Welocome to this <em>page!</em></b>
+  <p> Here you will find some information about me.</p>
+  <p>Let me introduce my favourite football clubs</p>
+  <ol>
+  <li> Chelsea </li>
+    <ul>
+      <li> Mendy</li>
+	  <li> Zouma</li>
+	  <li> Chilwell</li>
+	  <li> Mount</li>
+	  </ul>
+   <li>Barcelona</li>
+    <ul>
+      <li>Ter Stegen</li>
+      <li>Pique</li>
+      <li>Langlet</li>
+      </ul>
+   </ol>
+ <table>
+   <tr>
+      <th> Continent</th>
+	  <th> Country</th>
+	  <th> Capital</th>
+	  <th> Big City</th>
+	  </tr>
+	<tr>
+	  <td> Asia</td>
+	  <td> Kyrgyzstan</th>
+	  <td> Bishkek</td>
+	  <td> Osh</td>
+	  </tr>
+	<tr>
+	  <td> Europe </td>
+	  <td> Poland</td>
+	  <td> Warsaw</td>
+	  <td> Krakow</td>
+	  </td>
+	<tr>
+	  <td> N. America</td>
+	  <td> USA</td>
+	  <td> Washington</td>
+	  <td> New York</td>
+	  </tr>
+	<tr>
+	  <td> EuroAsia </td>
+	  <td> Russia</td>
+	  <td> Moscow</td>
+	  <td> St. Petersburg</td>
+	  </tr>
+ </table>
+ <p> Here will be an image</p>
+ <table>
+ <tr>
+ <td> <img src = "https://i.postimg.cc/Hkf7tQ1Y/photo5265012233220501485.jpg" width = "25%"/> </td>
+ <td> It's me when I travelled to earth of small people</td>
+ </tr>
+ <tr>
+ <td colspan="2">a single cell with 2 column width</td>
+  </tr>
+ </body>
