@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title> TIN task 3 </title>
+  <link type="text/css" rel="stylesheet" href="TIN 3 css"/>
+  </head>
+  
+  <div class="container-1">
+    <div class="header">
+        <h1>Central Asia</h1>
+    <p>Central Asia is a region in Asia which stretches from the Caspian Sea in the west to China and Mongolia in the east, and from Afghanistan and Iran in the south to Russia in the north. The region consists of the former Soviet republics of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div class="Central Asia">
+  <img src = "https://i.postimg.cc/0Qjq1G7Q/central-asia-main-logo.png" alt = "Central Asia" class = "responsive"/>  
+  <figcaption>Central Asia's map</figcaption>
+  </div>
+  </div>
+ 
+<div class="container-2">
+  <div class="Kyrgyzstan">
+  <section>
+    <h3>Kyrgyzstan</h3>
+	<img src = "https://i.postimg.cc/QdqpRcXv/Kyrgyzstan-image.jpg" width = "50%" alt "Kyrgyzstan"/>
+    <p>Kyrgyzstan, officially the Kyrgyz Republic, also known as Kirghizia (in Russian), is a landlocked country in Central Asia.	It is bordered by Kazakhstan, Uzbekistan, Tajikistan and China. Its capital and largest city is Bishkek. </p>
+ </section>
+ </div>
+  <div class="Uzbekistan">
+  <section>
+    <h3>Uzbekistan</h3>
+	<img src = "https://i.postimg.cc/fLQDmSdT/uzbekistan-image.jpg" width = "50%" alt "Uzbekistan"/>
+    <p>Uzbekistan (UK: /ʊzˌbɛkɪˈstɑːn, ʌz-, -ˈstæn/, US: /ʊzˈbɛkɪstæn, -stɑːn/; Uzbek: Oʻzbekiston, pronounced [ozbekiˈstɒn]), officially the Republic of Uzbekistan (Uzbek: Oʻzbekiston Respublikasi), is a country in Central Asia.</p>
+ </section>
+ </div>
+  <div class="Kazakhstan">
+  <section>
+    <h3>Kazakhstan</h3>
+	<img src = "https://i.postimg.cc/90Jh6xnr/kazakhstan-image.jpg" width = "50%" alt "Kazakhstan"/>
+    <p>Kazakhstan, officially the Republic of Kazakhstan, is a transcontinental country mainly located in Central Asia with a smaller portion west of the Ural in Eastern Europe. It is the world's largest landlocked country</p>
+  </section>
+  </div>
+</div>
+ <footer>
+  <p>Author: Adilet Nasirov</p>
+  <p><a href="mailto:adiletnasirov@gmail.com">adiletnasirov@gmail.com</a></p>
+</footer> 
+
+</html>

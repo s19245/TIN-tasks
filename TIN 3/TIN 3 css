@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 500px) {
+  .container-1 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+  }
+}
+
+.container-2 {
+  display: flex;
+}
+
+.container-2 {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+img {
+  border-radius: 10%;
+}
+.container-1 div, .container-2 div {
+  padding: 10px;
+  border: none;
+}
+
+.Kyrgyzstan {
+  flex: 2;
+  order: 2;
+}
+
+.Uzbekistan {
+  flex: 2;
+  order: 1;
+}
+
+.Kazakhstan {
+  flex: 1;
+  order: 3;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.image-main{
+	flex:3;
+	order:1
+}
+.responsive {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  background-color: none;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.box {
+  flex-basis: 20%;
+}
+section {
+  display: block;
+}
+footer {
+	text-align:center;
+}

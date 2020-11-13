@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Grid</title>
+	<style>
+		* {padding: 0; margin: 0}
+
+		.wrapper {
+			display: grid;
+			grid-template-columns: 1fr 2fr 1fr;
+			grid-auto-rows: minmax(100px, auto);
+			grid-gap: 1em;
+			justify-items: stretch;
+			align-items: stretch;
+		}
+
+		.wrapper > div{
+			padding: 1em;
+			background-color: #e7a158;
+		}
+
+		.wrapper > div.light {
+			padding: 1em;
+			background-color: #f4c3a0;
+		}
+ 
+		.box1 {
+			grid-column: 1/3;
+			grid-row: 1/3;
+		}
+        img {
+            border-radius: 10%;
+        }
+		.responsive {
+             width: 50%;
+             height: auto;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+        }
+        figcaption {
+             background-color: none;
+             color: black;
+             font-style: italic;
+             padding: 2px;
+             text-align: center;
+        }
+		.box2 {
+			grid-column: 3;
+			grid-row: 1/3;
+		}
+
+		.box3 {
+			grid-column: 1;
+			grid-row: 3;
+		}
+
+		.box4 {
+			grid-column: 2;
+			grid-row: 3;
+		}
+		footer {
+	        text-align:center;
+        }
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box box1">Box 1
+		<img src = "https://i.postimg.cc/0Qjq1G7Q/central-asia-main-logo.png" alt = "Central Asia" class = "responsive"/>  
+  <figcaption>Central Asia's map</figcaption>
+  </div>
+		<div class="box box2 light">Box 2
+		 <h1>Central Asia</h1>
+    <em>Central Asia is a region in Asia which stretches from the Caspian Sea in the west to China and Mongolia in the east, and from Afghanistan and Iran in the south to Russia in the north. The region consists of the former Soviet republics of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.</em>
+  </div>
+		<div class="box box3">Box 3
+		<h3>Kyrgyzstan</h3>
+	<img src = "https://i.postimg.cc/QdqpRcXv/Kyrgyzstan-image.jpg" width = "50%" alt "Kyrgyzstan"/>
+    <p>Kyrgyzstan, officially the Kyrgyz Republic, also known as Kirghizia (in Russian), is a landlocked country in Central Asia.	It is bordered by Kazakhstan, Uzbekistan, Tajikistan and China. Its capital and largest city is Bishkek. </p>
+ </div>
+		<div class="box box4 light">Box 4
+		<h3>Uzbekistan</h3>
+	<img src = "https://i.postimg.cc/fLQDmSdT/uzbekistan-image.jpg" width = "25%" alt "Uzbekistan"/>
+    <p>Uzbekistan (UK: /ʊzˌbɛkɪˈstɑːn, ʌz-, -ˈstæn/, US: /ʊzˈbɛkɪstæn, -stɑːn/; Uzbek: Oʻzbekiston, pronounced [ozbekiˈstɒn]), officially the Republic of Uzbekistan (Uzbek: Oʻzbekiston Respublikasi), is a country in Central Asia.</p>
+ </div>
+		<div class="box box5">Box 5
+		 <h3>Kazakhstan</h3>
+	<img src = "https://i.postimg.cc/90Jh6xnr/kazakhstan-image.jpg" width = "50%" alt "Kazakhstan"/>
+    <p>Kazakhstan, officially the Republic of Kazakhstan, is a transcontinental country mainly located in Central Asia with a smaller portion west of the Ural in Eastern Europe. It is the world's largest landlocked country</p>
+  </div>
+	</div>
+	<footer>
+  <p>Author: Adilet Nasirov</p>
+  <p><a href="mailto:adiletnasirov@gmail.com">adiletnasirov@gmail.com</a></p>
+</footer>
+</body>
+</html>
